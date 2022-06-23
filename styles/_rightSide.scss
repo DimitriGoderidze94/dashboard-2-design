@@ -1,0 +1,124 @@
+@import "variables";
+
+#rightSide {
+    position: relative;
+    overflow: hidden;
+
+    .rounded {
+        -moz-box-shadow: 0 10px 10px rgba(182, 182, 182, 0.35);
+        -webkit-box-shadow: 0 10px 10px rgba(182, 182, 182, 0.35);
+        box-shadow: 0 10px 10px rgba(182, 182, 182, 0.35);
+    }
+
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+#closeRightSide {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: none;
+
+}
+
+#notifications {
+    position: relative;
+
+    div {
+        position: absolute;
+        right: 1vw;
+    }
+}
+
+#eclipse {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    right: 5px;
+}
+
+#profile {
+    position: relative;
+    margin-top: 5px;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+#profileImg {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-color: yellow;
+}
+
+.profileButton {
+    font-size: calc(7px + 0.5vw);
+    border: 1px solid #E6E6EB;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+    margin: auto;
+}
+
+.primaryBackgroundColor.profileButton {
+    color: white;
+}
+
+
+
+#actions {
+    margin: 10px 0 10px 0;
+    text-align: left;
+    height: 20vh;
+    margin-left: 1px;
+
+    .col-5 {
+        height: 100%;
+        position: relative;
+    }
+
+    p {
+        font-size: calc(3px + 0.5vw);
+    }
+
+    div {
+        font-size: calc(5px + 1vw);
+    }
+}
+
+.deleteButton {
+    position: absolute;
+    top: 0.3vw;
+    right: 0.9vw;
+    color: #11243D;
+}
+
+#photos {
+    background-color: #FEF3F0;
+    color: #AC6755;
+    margin: auto;
+}
+
+#videos {
+    background-color: #F2E9FF;
+    color: #51459E;
+    margin: auto;
+}
+
+#gallery {
+    text-align: center;
+    width: 80%;
+    height: 28%;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.listPhoto {
+    width: 26%;
+    height: 49%;
+    margin: auto;
+}

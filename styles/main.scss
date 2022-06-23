@@ -1,0 +1,38 @@
+@import "leftSide";
+@import "rightSide";
+@import "content";
+@import "variables";
+
+
+body {
+    width: 98vw;
+    height: 98vh;
+    margin: auto;
+    background-color: FFFFFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+a {
+    color: rgb(156, 152, 152);
+    text-decoration: none;
+}
+
+span {
+    font-size: calc(0.5vw + 5px);
+}
+
+.page {
+    margin: auto;
+}
+
+.row {
+    position: relative;
+}
+
+.column {
+    min-height: 100vh;
+    position: relative;
+}
+
+@import "smallScreen";
